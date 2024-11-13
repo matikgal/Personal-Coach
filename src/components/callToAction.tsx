@@ -1,4 +1,4 @@
-export default function callToAction() {
+export default function CallToAction() {
 	return (
 		<div className="py-12 bg-orange-500 text-center text-white">
 			<h2 className="text-3xl font-bold mb-6 font-montserrat">Ready to Start Your Journey?</h2>

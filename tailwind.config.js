@@ -5,5 +5,5 @@ module.exports = {
 			fontFamily: { montserrat: ['Montserrat', 'sans-serif'], opensans: ['Open Sans', 'sans-serif'] },
 		},
 	},
-	plugins: [],
+	plugins: [require('tailwindcss-animated')],
 }

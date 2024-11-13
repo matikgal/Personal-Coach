@@ -1,4 +1,4 @@
-export default function contactForm() {
+export default function ContactForm() {
 	return (
 		<div className="py-16 bg-white">
 			<div className="max-w-xl mx-auto text-center">

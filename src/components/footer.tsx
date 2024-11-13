@@ -1,26 +1,26 @@
-export default function footer() {
+export default function Footer() {
 	return (
 		<div className="bg-gray-800 text-gray-200 py-8 px-6 md:px-20">
-			<div className="flex flex-col md:flex-row justify-around items-center space-x-6">
-				<div className="text-center md:text-left mb-6 md:mb-0 md:w-1/3 justify-center w-max">
+			<div className="flex flex-col md:flex-row justify-between items-center space-x-6">
+				<div className="text-center md:text-left mb-6 md:mb-0 md:w-1/3 md:justify-start w-max">
 					<h3 className="text-lg font-semibold text-green-500 font-montserrat">Jack’s Fitness Coaching</h3>
 					<p className="text-sm">Contact: info@jackfitness.com | +123 456 789</p>
 				</div>
 				<div className="flex space-x-6 mdw-1/3 justify-center w-max">
-					<a href="" className="text-sm hover:text-green-500">
+					<a href="" className="text-sm hover:text-green-500 p-1 hover:underline">
 						Home
 					</a>
-					<a href="" className="text-sm hover:text-green-500 text-nowrap">
+					<a href="" className="text-sm hover:text-green-500 text-nowrap p-1 hover:underline">
 						About Me
 					</a>
-					<a href="" className="text-sm hover:text-green-500">
+					<a href="" className="text-sm hover:text-green-500 p-1 hover:underline">
 						Services
 					</a>
-					<a href="" className="text-sm hover:text-green-500">
+					<a href="" className="text-sm hover:text-green-500 p-1 hover:underline">
 						Contact
 					</a>
 				</div>
-				<div className="flex space-x-4 mt-4 md:mt-0 md:w-1/3  justify-center w-max">
+				<div className="flex space-x-4 mt-4 md:mt-0 md:w-1/3  justify-end w-max">
 					<a href="" className="text-green-500">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

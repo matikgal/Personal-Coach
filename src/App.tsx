@@ -12,8 +12,8 @@ function App() {
 			<HeroImage></HeroImage>
 			<AboutMe></AboutMe>
 			<Services></Services>
-			<Testimonials></Testimonials>
 			<CallToAction></CallToAction>
+			<Testimonials></Testimonials>
 			<ContactForm></ContactForm>
 			<Footer></Footer>
 		</>
